@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-image: url("mountains-gdccf1db50_1280.jpg");
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(161, 94, 63, 0.897) ;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+}
+
+ul {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+    font-size: 18px;
+    margin: 20 20px;
+    line-height: 100px;
+    justify-content: center;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+
+}
+
+ul li a:hover {
+    background-color: white;
+    transition: 1s;
+    border-radius: 8px;
+    padding: 5px; 
+} 
+
+
+
+.logo {
+    height: 100px;
+    width: 200px;
+    padding: 0 40px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
